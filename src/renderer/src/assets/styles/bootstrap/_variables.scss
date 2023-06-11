@@ -1,0 +1,96 @@
+// Primary colours
+$teal-blue: #386485;
+$space-cadet: #1a3953;
+$tufts-blue: #4185d1;
+$denim: #236ab9;
+$japanese-indigo: #303d45;
+
+// Text colours
+$black: #161616;
+$nickel: #677276;
+$white: #ffffff;
+$metallic-silver: #a0adb1;
+
+// Border colours
+$columbia-blue: #cfd4da;
+
+// Background colours
+$cultured: #f8f8f8;
+
+// Icon colours
+$morning-blue: #89969a;
+$bright-gray: #d5dce2;
+
+// Table colours
+$ghost-white: #f5f9fd;
+$gray: #d8dfe3;
+
+// Supportive Colours
+$international-orange-100: #bb3932;
+$international-orange-60: #d68884;
+$international-orange-20: #f1d7d6;
+
+$sap-green-100: #3f8230;
+$sap-green-60: #90b684;
+$sap-green-20: #dae7d6;
+
+$vivid-red-tangelo-100: #da6b2c;
+$vivid-red-tangelo-60: #e9a680;
+$vivid-red-tangelo-20: #f8e1d5;
+
+$sandstorm-100: #e3d146;
+$sandstorm-60: #eee390;
+$sandstorm-20: #f9f6da;
+
+$deer-100: #b3804a;
+$deer-60: #d1b392;
+$deer-20: #f0e6db;
+
+$polished-pine-100: #5bb89c;
+$polished-pine-60: #9dd4c4;
+$polished-pine-20: #def1eb;
+
+$purple-heart-100: #6444a2;
+$purple-heart-60: #a28fc7;
+$purple-heart-20: #e0daec;
+
+$primary: $teal-blue;
+$secondary: $nickel;
+$success: $sap-green-100;
+$info: $denim;
+$warning: $vivid-red-tangelo-100;
+$danger: $international-orange-100;
+$yellow: $sandstorm-100;
+
+$font-family-sans-serif: 'IBM Plex Sans', sans-serif;
+
+$border-radius: 5px;
+$border-color: $columbia-blue;
+
+$form-label-margin-bottom: 0.25rem;
+$form-label-font-size: 1rem;
+$form-label-color: $nickel;
+$form-select-focus-box-shadow: none;
+
+$input-focus-box-shadow: none;
+$input-focus-border-color: $primary;
+$input-placeholder-color: $metallic-silver;
+$input-btn-padding-y: 0.3125rem; // form elements and buttons to be 44px height
+$input-btn-line-height: 2;
+$input-line-height: $input-btn-line-height;
+
+$textarea-height: 112px;
+
+$btn-padding-x: 1.25rem;
+
+$table-cell-padding-y: 0.5rem;
+$table-cell-padding-x: 1rem;
+$table-cell-vertical-align: middle;
+$table-variants: (
+  'white': $white,
+  'gray': $gray,
+);
+
+$navbar-toggler-padding-y: 0.375rem;
+
+$breadcrumb-divider-color: $secondary;

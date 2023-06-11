@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.custom-scroll {
+  $scrollbar-bg-color: $cultured;
+  $scrollbar-thumb-color: $border-color;
+  $border-radius: 5px;
+
+  scrollbar-width: thin;
+  scrollbar-color: $scrollbar-thumb-color $scrollbar-bg-color;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+    background-color: $scrollbar-bg-color;
+    border-radius: $border-radius;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $scrollbar-thumb-color;
+    border-radius: $border-radius;
+  }
+}
