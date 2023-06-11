@@ -37,5 +37,5 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "cSpell.language": "en-GB",
-  "cSpell.words": ["colours", "offcanvas", "vstack"]
+  "cSpell.words": ["colours", "offcanvas", "truetype", "vstack"]
 }

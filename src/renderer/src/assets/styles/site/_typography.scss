@@ -1,6 +1,23 @@
+/* Montserrat Regular */
+@font-face {
+  font-family: Montserrat;
+  src: url('fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: bold;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', Roboto, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Segoe UI', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Open Sans', sans-serif;
 }
 
 .fs-22 {
